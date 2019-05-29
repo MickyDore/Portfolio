@@ -1,0 +1,18 @@
+.accordion-container {
+  width: 100%;
+  height: 100vh;
+  background-color: #C91F37;
+  display: flex;
+  transition: all 700ms ease-out;
+}
+
+.accordion-section {
+  flex: 1;
+  border: 2px solid green;
+  transition: all 700ms ease-out;
+  cursor: pointer;
+}
+
+.accordion-active {
+  flex: 10;
+}
