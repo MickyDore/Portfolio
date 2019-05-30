@@ -29,11 +29,11 @@
   background-size: cover;
 }
 .about {
-  background-image: url('../about3.jpg');
+  background-image: url('../projects.jpg');
   background-size: cover;
 }
 .projects {
-  background-image: url('../projects.jpg');
+  background-image: url('../about3.jpg');
   background-size: cover;
 }
 .contact {
@@ -194,13 +194,13 @@
     top: 10px;
     width: 44px;
     height: 44px;
-    background-color: #3498db;
+    background-color: white;
     border-radius: 100%;
     z-index: 100000;
 }
 
 .content-projects-item-link:hover {
-  background-color: white;
+  background-color: #3498db;
 }
 
 .content-projects-item-link img {
