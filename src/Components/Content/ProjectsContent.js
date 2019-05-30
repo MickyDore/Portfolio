@@ -6,19 +6,19 @@ const slides = [
   {
     title: "DOBBLE",
     description: `An online game created with React where you can play the card game 'Dobble'.`,
-    backgroundImage: `url(${iconPath}dobble.png)`,
+    backgroundImage: `url(${iconPath}dobble.PNG)`,
     link: "https://mickydore.github.io/Dobble-Practice/"
   },
   {
     title: "PYTHON WEB SCRAPER",
     description: "A python webscraper built to scan local music venue websites and alert the user to newly added gigs.",
-    backgroundImage: `url(${iconPath}scraper.png)`,
+    backgroundImage: `url(${iconPath}scraper.PNG)`,
     link: "https://github.com/MickyDore/GigWebScraper"
   },
   {
     title: "PROGRAMMING CHALLENGES",
     description: "A variety of online challenges completed in different programming languages.",
-    backgroundImage: `url(${iconPath}challenge.png)`,
+    backgroundImage: `url(${iconPath}challenge.PNG)`,
     link: "https://github.com/MickyDore/ProgrammingChallenges"
   },
 ];
