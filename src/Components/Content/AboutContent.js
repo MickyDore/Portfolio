@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../../Style/accordion.css';
-const iconPath = process.env.PUBLIC_URL + '/assets/images/';
+const iconPath = process.env.PUBLIC_URL + '/assets/';
 
 class AboutContent extends Component {
 
@@ -25,8 +25,8 @@ class AboutContent extends Component {
           <div className="content-about-contact-info">
             <div>If you want to find out more about me, you can read my CV <a href={`${iconPath}cv.pdf`}>here.</a></div>
             <div className="content-about-socials-container">
-              <div className="content-about-social-item"><img alt="github" src={`${iconPath}github.png`} /></div>
-              <div className="content-about-social-item"><img alt="linkedin" src={`${iconPath}linkedin.png`} /></div>
+              <div className="content-about-social-item"><img alt="github" src={`${iconPath}images/github.png`} /></div>
+              <div className="content-about-social-item"><img alt="linkedin" src={`${iconPath}images/linkedin.png`} /></div>
             </div>
           </div>
         </div>
