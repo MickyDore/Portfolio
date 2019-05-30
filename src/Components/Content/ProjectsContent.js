@@ -75,7 +75,7 @@ class ProjectsContent extends Component {
           </span>
           <div className="content-projects-item">
             <div className="content-projects-item-link" onClick={this.handleLinkClick}><img alt="live demo" src={`${iconPath}github.png`} /></div>
-            <div className="content-projects-item-image" style={{backgroundImage: `${slides[this.state.slideIndex].backgroundImage}`}}></div>
+            <div className="content-projects-item-image" onClick={this.handleLinkClick} style={{backgroundImage: `${slides[this.state.slideIndex].backgroundImage}`}}></div>
             <div className="content-projects-item-info-container">
               <div className="content-projects-item-title">{slides[this.state.slideIndex].title}</div>
               <div className="content-projects-item-info">{slides[this.state.slideIndex].description}</div>
