@@ -23,7 +23,7 @@ class AboutContent extends Component {
             <div className="content-about-skill-item item-7"><span>&#8226;</span> NoSQL and SQL Database experience with MongoDB and MySQL.</div>
           </div>
           <div className="content-about-contact-info">
-            <div>If you want to find out more about me, you can read my CV <a href={`${iconPath}cv.pdf`}>here.</a></div>
+            <div>If you want to find out more about me, you can read my CV <a href={`${iconPath}cv.pdf`} target="_blank">here.</a></div>
             <div className="content-about-socials-container">
               <div className="content-about-social-item"><img alt="github" src={`${iconPath}images/github.png`} /></div>
               <div className="content-about-social-item"><img alt="linkedin" src={`${iconPath}images/linkedin.png`} /></div>
