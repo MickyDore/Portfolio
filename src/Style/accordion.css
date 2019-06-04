@@ -524,4 +524,8 @@
     max-height: calc(100vh - 200px);
   }
 
+  .content-home-title {
+    max-width: 80%;
+    font-size: 1.5em;
+  }
 }
